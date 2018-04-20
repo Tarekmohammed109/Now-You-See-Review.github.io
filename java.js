@@ -209,7 +209,7 @@ function myFunction6() {
 /* Pop up for Book Category*/
 
 /* Windows Alert*/
-function myFunction() {
+function subscribe() {
     alert("Congratulations! You Subscribed to our Newsletter");
 }
 /* Windows Alert */
