@@ -13,3 +13,4 @@
         mail($mailTo, $subject, $txt, $headers);
         header("Location: Contact.html");
     }
+?>
