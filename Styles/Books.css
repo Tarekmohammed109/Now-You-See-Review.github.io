@@ -62,7 +62,8 @@ body{
     display: none;
 }
 .container{
-    max-width: 70%;
+    width: 70%;
+    margin: auto;
 }
 .on {
     color: yellow;
@@ -196,6 +197,7 @@ header .current{
     margin: 0px;
     list-style: none;
     font-size: 18px;
+    background-color: #333563;
 }
 
 .menu{
@@ -280,6 +282,7 @@ header nav ul li ul{
     width: 50px;
     display: block;
     color: #fff;
+    padding: 3px;
     
 }
 .footer ul li:nth-child(1){
@@ -385,28 +388,28 @@ header nav ul li ul{
         left: 0;
     }
     20%{
-        left: -100%;
+        left: -104.5%;
     }
     30%{
-        left: -100%;
+        left: -104.5%;
     }
     40%{
-        left: -200%;
+        left: -204.5%;
     }
     50%{
-        left: -200%;
+        left: -204.5%;
     }
     60%{
-        left: -300%;
+        left: -304.5%;
     }
     70%{
-        left: -300%;
+        left: -304.5%;
     }
     80%{
-        left: -400%;
+        left: -404.5%;
     }
     90%{
-        left: -400%;
+        left: -404.5%;
     }
     100%{
         left: 0;
@@ -463,7 +466,7 @@ table.t01 th {
     color: #818181;
     display: block;
     transition: 0.3s;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .sidenav .closebtn {
@@ -483,6 +486,8 @@ table.t01 th {
     transform: translateY(-6px);
     box-shadow: 0 10px 10px rgba(0,0,0,.5);
     background-color: #333563;
+    color: white;
+    font-weight: bold;
 }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}

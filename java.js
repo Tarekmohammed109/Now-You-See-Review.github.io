@@ -1,3 +1,4 @@
+/* Go to up button*/
 var myButton = document.getElementById("goup");
 
 window.onscroll = function () {
@@ -19,7 +20,9 @@ myButton.onclick = function () {
     'use strict';
     window.scrollTo(0, 0);
 };
+/* Go to up button*/
 
+/* Side Bar*/
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
@@ -29,6 +32,9 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
 }
+/* Side Bar*/
+
+/* Bar Chart*/
 window.onload = function (){
 var chart = new CanvasJS.Chart("chartContainer",{
 	
@@ -167,7 +173,9 @@ chart3.render();
 chart4.render();
 chart5.render();
 }
+/* Side Bar*/
 
+/* Pop up for Book Category*/
 function myFunction() {
     var popup = document.getElementById("myPopup");
     popup.classList.toggle("show");
@@ -198,3 +206,10 @@ function myFunction6() {
     popup.classList.toggle("show");
     popup.style.width = "600px";
 }
+/* Pop up for Book Category*/
+
+/* Windows Alert*/
+function myFunction() {
+    alert("Congratulations! You Subscribed to our Newsletter");
+}
+/* Windows Alert */
