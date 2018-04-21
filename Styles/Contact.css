@@ -60,14 +60,16 @@ form .submit:hover{
     }
     form{transition: all 4s ease-in-out;}
     form .submit{width: auto;font-size: 18px;}
-    .form-control{width: 255px;} 
+    .form-control{width: 255px; color: black;} 
     
     .contact-title h1{
-    font-size: 25px;
-    line-height: 10px;
+        font-size: 25px;
+        line-height: 10px;
+        color: black;
     }
     .contact-title h2{
-    font-size: 12px;
+        font-size: 12px;
+        color: black;
     }
     body{margin: 0; padding: 0; text-align: center; background-size: cover; background-image: url(../Images/Light-Grey-Background-Hd-5.jpg);}
 }
