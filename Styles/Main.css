@@ -487,4 +487,6 @@ hr{
     #slider figure{position: relative; width: 500%; animation: slide 10s infinite;}
     .large{font-size:24px;}
     .overall{display: none;}
+    .p{
+    margin-top:10px; font-family: sans-serif; font-size: 16px;}
 }
