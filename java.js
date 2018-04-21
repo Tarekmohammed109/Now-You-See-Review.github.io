@@ -24,8 +24,8 @@ myButton.onclick = function () {
 
 /* Side Bar*/
 function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
+    document.getElementById("mySidenav").style.width = "230px";
+    document.getElementById("main").style.marginLeft = "230px";
 }
 
 function closeNav() {
@@ -161,8 +161,8 @@ var chart5 = new CanvasJS.Chart("chartContainer5",{
 			{ y: 226, label: "FAST & FURIOUS 8" },
 			{ y: 229,  label: "Justise League" },
 			{ y: 210,  label: "Logan" },
-			{ y: 100,  label: "Life of the Party" },
-			{ y: 102,  label: "A Quiet Place" },
+			{ y: 100,  label: "Logan Lucky" },
+			{ y: 102,  label: "Dunkirk " },
 		]
 	}]
 });

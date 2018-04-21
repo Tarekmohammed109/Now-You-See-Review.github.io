@@ -241,28 +241,28 @@ header nav ul li ul{
         left: 0;
     }
     20%{
-        left: -104.5%;
+        left: -104.3%;
     }
     30%{
-        left: -104.5%;
+        left: -104.3%;
     }
     40%{
-        left: -204.5%;
+        left: -204.3%;
     }
     50%{
-        left: -204.5%;
+        left: -204.3%;
     }
     60%{
-        left: -304.5%;
+        left: -304.3%;
     }
     70%{
-        left: -304.5%;
+        left: -304.3%;
     }
     80%{
-        left: -404.5%;
+        left: -404.3%;
     }
     90%{
-        left: -404.5%;
+        left: -404.3%;
     }
     100%{
         left: 0;
@@ -326,15 +326,27 @@ header nav ul li ul{
     font-size:35px;
     cursor:pointer
 }
-@media screen and (max-width: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
 .pvideo{
     text-align: center;
 }.spanvideo{
     color: red;
     font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+    header ul {display: grid;}
+    header ul li ul li a{display: grid; background-color: #333563; width: 150px; margin: auto;}
+    .search-form button {float: right; border-radius: 5px;}
+    .search-form input {float: right;}
+    .footer ul li a{display:inline;}
+    #news{font-size: 15px;}
+    .sidenav {padding-top: 15px;}
+    .sidenav ul {font-size: 18px;}
+    .container{width: 100%; margin: auto;}
+    iframe{width: auto;}
+    .logo img{width: 100%; height: 100%;}
+    #slider figure{
+    position: relative; width: 500%; animation: slide 10s infinite;}
+    .large{font-size:24px;}
 }
 
 

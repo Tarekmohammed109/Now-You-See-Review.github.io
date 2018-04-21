@@ -4,6 +4,7 @@ body{
     background-image: url(../Images/Light-Grey-Background-Hd-5.jpg);
     text-align: justify;
 }
+
 .button{
     position: fixed;
     bottom: 10px;
@@ -58,6 +59,7 @@ header ul {
  header ul li {
     float: left;
 }
+
 
 header ul li a {
     display: block;
@@ -180,10 +182,11 @@ a{
     margin-left: auto; 
     margin-right: auto;
 }
+
+
 header nav ul li ul{
     display: grid;
 }
-
 .footer{
     background-color:dimgray;
     margin: 0;
@@ -198,7 +201,7 @@ header nav ul li ul{
 }
 .footer ul li{
     background: #000;
-    margin: 10px;
+    margin: 5px;
     list-style: none;
     font-size: 24px;
     transition: .5s;
@@ -228,6 +231,7 @@ header nav ul li ul{
     box-shadow: 0 10px 10px rgba(0,0,0,.5);
 }
 
+
 #news{
     margin-top: -10px;
     color: white;
@@ -244,28 +248,28 @@ header nav ul li ul{
         left: 0;
     }
     20%{
-        left: -104.5%;
+        left: -104.3%;
     }
     30%{
-        left: -104.5%;
+        left: -104.3%;
     }
     40%{
-        left: -204.5%;
+        left: -204.3%;
     }
     50%{
-        left: -204.5%;
+        left: -204.3%;
     }
     60%{
-        left: -304.5%;
+        left: -304.3%;
     }
     70%{
-        left: -304.5%;
+        left: -304.3%;
     }
     80%{
-        left: -404.5%;
+        left: -404.3%;
     }
     90%{
-        left: -404.5%;
+        left: -404.3%;
     }
     100%{
         left: 0;
@@ -279,28 +283,28 @@ header nav ul li ul{
         left: 0;
     }
     20%{
-        left: -104.5%;
+        left: -104.3%;
     }
     30%{
-        left: -104.5%;
+        left: -104.3%;
     }
     40%{
-        left: -204.5%;
+        left: -204.3%;
     }
     50%{
-        left: -204.5%;
+        left: -204.3%;
     }
     60%{
-        left: -304.5%;
+        left: -304.3%;
     }
     70%{
-        left: -304.5%;
+        left: -304.3%;
     }
     80%{
-        left: -404.5%;
+        left: -404.3%;
     }
     90%{
-        left: -404.5%;
+        left: -404.3%;
     }
     100%{
         left: 0;
@@ -314,28 +318,28 @@ header nav ul li ul{
         left: 0;
     }
     20%{
-        left: -104.5%;
+        left: -104.3%;
     }
     30%{
-        left: -104.5%;
+        left: -104.3%;
     }
     40%{
-        left: -204.5%;
+        left: -204.3%;
     }
     50%{
-        left: -204.5%;
+        left: -204.3%;
     }
     60%{
-        left: -304.5%;
+        left: -304.3%;
     }
     70%{
-        left: -304.5%;
+        left: -304.3%;
     }
     80%{
-        left: -404.5%;
+        left: -404.3%;
     }
     90%{
-        left: -404.5%;
+        left: -404.3%;
     }
     100%{
         left: 0;
@@ -353,6 +357,7 @@ header nav ul li ul{
     width: 500%;
     animation: slide 10s infinite;
 }
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -414,14 +419,12 @@ table.t01 th {
     color: white;
     font-weight: bold;
 }
-@media screen and (max-width: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
+
 
 .pvideo{
     text-align: center;
-}.spanvideo{
+}
+.spanvideo{
     color: red;
     font-weight: bold;
 }
@@ -443,6 +446,45 @@ table.t01 th {
 #spantopchart{
     font-size: 20px;
 }
+.bolder{
+    font-weight:bold;
+}
 
-
-
+.lighter{
+    font-weight: 50;
+}
+.ratingtxt{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.checked{
+    color: orange;
+}
+.overall{
+    float:right; 
+    margin-top: 120px; 
+    margin-right: 350px;
+}
+.overallspan{
+    color: orangered;
+}
+hr{
+    border: 0.5px solid black;
+}
+@media screen and (max-width: 600px) {
+    header ul {display: grid;}
+    header ul li ul li a{display: grid; background-color: #333563; width: 200px; margin: auto;}
+    .search-form button {float: right; border-radius: 5px;}
+    .search-form input {float: right;}
+    .footer ul li a{display:inline;}
+    #news{font-size: 15px;}
+    .sidenav {padding-top: 15px;}
+    .sidenav ul {font-size: 18px;}
+    .container{width: 100%; margin: auto;}
+    iframe{width: auto;}
+    .logo img{width: 100%; height: 100%;}
+    #slider figure{position: relative; width: 500%; animation: slide 10s infinite;}
+    .large{font-size:24px;}
+    .overall{display: none;}
+}
