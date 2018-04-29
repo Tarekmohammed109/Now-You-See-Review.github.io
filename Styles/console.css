@@ -332,6 +332,64 @@ header nav ul li ul{
     color: red;
     font-weight: bold;
 }
+/*Comment form*/
+.commentform{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.commentform input:focus{
+    outline: none;
+}
+.commentform  div{
+    position: relative;
+}
+.commentform input{
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background-color: transparent;
+    border-bottom:  1px solid darkgray;
+}
+.commentform input + .border{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: black;
+    width: 0;
+    height: 2px;
+    transition: .5s;
+}
+.commentform input:focus + .border{
+    left: 0;
+    width: 100%;
+}
+.commentform .comment{
+    width: 100px;
+    float: right;
+    cursor: pointer;
+    color: #fff;
+    background-color:mediumblue;
+    margin-top: 4px;
+    border-radius: 3px;
+}
+.commentform .cancel{
+    width: 100px;
+    float: right;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 4px;
+    background-color:transparent;
+    color:darkgray;
+}
+.commentform .cancel:hover{
+    color: black;
+}
+.commenttxt{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+
+/*End of the Comment*/
 @media screen and (max-width: 600px) {
     header ul {display: grid;}
     header ul li ul li a{display: grid; background-color: #333563; width: 150px; margin: auto;}
