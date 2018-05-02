@@ -240,6 +240,7 @@ header nav ul li ul{
     color: white;
     font-size: 20px;
 }
+/* old slider*/
 @-webkit-keyframes slide{
     0%{
         left: 0;
@@ -357,7 +358,7 @@ header nav ul li ul{
     width: 500%;
     animation: slide 10s infinite;
 }
-
+/* old slider */
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -378,7 +379,7 @@ table.t01 th {
     text-align: center;
 }
 .sidenav {
-    height: 100%;
+    height: 100vh;
     width: 0;
     position: fixed;
     z-index: 1;
@@ -402,7 +403,7 @@ table.t01 th {
 .sidenav .closebtn {
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 15px;
     font-size: 40px;
     margin-left: 0px;
 }
@@ -419,18 +420,17 @@ table.t01 th {
     color: white;
     font-weight: bold;
 }
-
-
+#spanside{
+    font-size:35px;
+    cursor:pointer;
+    margin: 0;
+}
 .pvideo{
     text-align: center;
 }
 .spanvideo{
     color: red;
     font-weight: bold;
-}
-#spanside{
-    font-size:35px;
-    cursor:pointer
 }
 .chartcontainer{
     height: 400px; 
@@ -529,6 +529,79 @@ hr{
     font-size: 24px;
 }
 
+#slider,
+.wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.wrap {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1 {
+  background-image: url(../Slideshow/iphone-mobile-mobile-phone-48605.jpg);
+}
+.slide2 {
+  background-image: url("../Slideshow/computer-device-earphones-583842.jpg");
+}
+.slide3 {
+  background-image:url(../Slideshow/pexels-photo-818043.jpeg);
+}
+.slide4{
+    background-image: url(../Slideshow/pexels-photo-262465.jpeg);
+}
+.slide5{
+    background-image: url(../Slideshow/camera-grass-hand-105254.jpg);
+}
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-content span {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #fff transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #fff;
+  right: 0;
+  margin-right: 30px;
+}
+
 /*End of the Comment*/
 @media screen and (max-width: 600px) {
     header ul {display: grid;}
@@ -546,9 +619,8 @@ hr{
     .large{font-size:24px;}
     .overall{display: none;}
     .p{margin-top:10px; font-family: sans-serif; font-size: 16px;}
+    .ol{font-family: sans-serif; font-size: 16px;}
     .commentform .comment{display: grid;}
     .commentform .cancel{color: black; display: grid;}
 }
-
-
 
